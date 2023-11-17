@@ -1,0 +1,67 @@
+
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the cart header */
+  .cart-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the cart items list */
+  .cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each cart item */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  /* Style for the remove button */
+  .remove-button {
+    background-color: #ff6347; /* Tomato */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Style for the total amount */
+  .total-amount {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  /* cart.css (or any other name you prefer) */
+
+/* ... (previous styles) */
+
+/* Style for the "Pay Now" button */
+.pay-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Style for the payment success message */
+.payment-success {
+  color: #4caf50; /* Green */
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
